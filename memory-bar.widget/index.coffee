@@ -4,24 +4,24 @@ refreshFrequency: 2000
 
 style: """
   // Change bar height
-  bar-height = 6px
+  bar-height = 5px
 
   // Align contents left or right
   widget-align = left
 
   // Position this where you want
-  top 10px
-  left 10px
+  top 5px
+  left 5px
 
   // Statistics text settings
   color #fff
-  font-family Helvetica Neue
+  font-family Monaco
   background rgba(#000, .5)
-  padding 10px 10px 15px
+  padding 7px 7px 10px
   border-radius 5px
 
   .container
-    width: 300px
+    width: 200px
     text-align: widget-align
     position: relative
     clear: both
@@ -30,23 +30,23 @@ style: """
     text-align: widget-align
 
   .stats-container
-    margin-bottom 5px
+    margin-bottom 2px
     border-collapse collapse
 
   td
-    font-size: 14px
-    font-weight: 300
+    font-size: 8px
+    font-weight: 200
     color: rgba(#fff, .9)
     text-shadow: 0 1px 0px rgba(#000, .7)
     text-align: widget-align
 
   .widget-title
-    font-size 10px
+    font-size 8px
     text-transform uppercase
     font-weight bold
 
   .label
-    font-size 8px
+    font-size 7px
     text-transform uppercase
     font-weight bold
 
@@ -58,7 +58,7 @@ style: """
     clear: both
     background: rgba(#fff, .5)
     position: absolute
-    margin-bottom: 5px
+    margin-bottom: 2px
 
   .bar
     height: bar-height
